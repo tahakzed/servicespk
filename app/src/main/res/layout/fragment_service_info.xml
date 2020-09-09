@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceInfoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/fragment_service_info_service_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type of service"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:inputType="text"
+            android:id="@+id/fragment_service_info_charges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Charges per hour" />
+
+        <Button
+            android:id="@+id/fragment_service_info_add_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="ADD" />
+    </LinearLayout>
+</FrameLayout>
